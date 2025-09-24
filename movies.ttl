@@ -1,0 +1,564 @@
+@prefix : <#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix stat: <http://www.w3.org/ns/posix/stat#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix mov: <>.
+@prefix tur: <http://www.w3.org/ns/iana/media-types/text/turtle#>.
+
+mov:
+    a ldp:BasicContainer, ldp:Container;
+    dct:created "2025-09-24T08:40:29Z"^^xsd:dateTime;
+    dct:modified "2025-09-24T08:43:01Z"^^xsd:dateTime;
+    rdfs:label "Movies";
+    ldp:contains
+        mov:12-angry-men-1957, mov:12th-fail-2023,
+        mov:2001-a-space-odyssey-1968, mov:3-idiots-2009, mov:alien-1979,
+        mov:aliens-1986, mov:amadeus-1984, mov:american-beauty-1999,
+        mov:american-history-x-1998, mov:apocalypse-now-1979,
+        mov:avengers-endgame-2019, mov:avengers-infinity-war-2018,
+        mov:back-to-the-future-1985, mov:braveheart-1995, mov:capernaum-2018,
+        mov:casablanca-1943, mov:cinema-paradiso-1988, mov:city-lights-1931,
+        mov:city-of-god-2002, mov:coco-2017, mov:come-and-see-1985,
+        mov:das-boot-1981, mov:django-unchained-2012,
+        mov:dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb-1964,
+        mov:dune-part-two-2024, mov:eternal-sunshine-of-the-spotless-mind-2004,
+        mov:fight-club-1999, mov:forrest-gump-1994, mov:gladiator-2000,
+        mov:good-will-hunting-1997, mov:goodfellas-1990,
+        mov:grave-of-the-fireflies-1988, mov:harakiri-1962,
+        mov:high-and-low-1963, mov:ikiru-1952, mov:inception-2010,
+        mov:inglourious-basterds-2009, mov:interstellar-2014,
+        mov:its-a-wonderful-life-1946, mov:joker-2019,
+        mov:lawrence-of-arabia-1962, mov:leon-the-professional-1994,
+        mov:life-is-beautiful-1997, mov:memento-2000, mov:modern-times-1936,
+        mov:oldboy-2003, mov:once-upon-a-time-in-america-1984,
+        mov:once-upon-a-time-in-the-west-1968,
+        mov:one-flew-over-the-cuckoos-nest-1975, mov:parasite-2019,
+        mov:paths-of-glory-1957, mov:princess-mononoke-1997, mov:psycho-1960,
+        mov:pulp-fiction-1994, mov:raiders-of-the-lost-ark-1981,
+        mov:rear-window-1954, mov:requiem-for-a-dream-2000,
+        mov:reservoir-dogs-1992, mov:return-of-the-jedi-1983,
+        mov:saving-private-ryan-1998, mov:schindlers-list-1993, mov:se7en-1995,
+        mov:seven-samurai-1954, mov:singin-in-the-rain-1952,
+        mov:spiderman-across-the-spiderverse-2023,
+        mov:spiderman-into-the-spiderverse-2018, mov:spirited-away-2001,
+        mov:star-wars-1977, mov:sunset-boulevard-1950,
+        mov:terminator-2-judgment-day-1991, mov:the-apartment-1960,
+        mov:the-dark-knight-2008, mov:the-dark-knight-rises-2012,
+        mov:the-departed-2006, mov:the-empire-strikes-back-1980,
+        mov:the-godfather-1972, mov:the-godfather-part-ii-1974,
+        mov:the-good-the-bad-and-the-ugly-1966, mov:the-great-dictator-1940,
+        mov:the-green-mile-1999, mov:the-hunt-2012, mov:the-intouchables-2011,
+        mov:the-lion-king-1994, mov:the-lives-of-others-2006,
+        mov:the-lord-of-the-rings-the-fellowship-of-the-ring-2001,
+        mov:the-lord-of-the-rings-the-return-of-the-king-2003,
+        mov:the-lord-of-the-rings-the-two-towers-2002, mov:the-matrix-1999,
+        mov:the-pianist-2002, mov:the-prestige-2006,
+        mov:the-shawshank-redemption-1994, mov:the-shining-1980,
+        mov:the-silence-of-the-lambs-1991, mov:the-usual-suspects-1995,
+        mov:toy-story-1995, mov:toy-story-3-2010, mov:walle-2008,
+        mov:whiplash-2014, mov:witness-for-the-prosecution-1957,
+        mov:your-name-2016;
+    stat:mtime 1758703381.663;
+    stat:size 4096 .
+mov:12-angry-men-1957
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:43Z"^^xsd:dateTime;
+    stat:mtime 1758703303.217;
+    stat:size 937 .
+mov:12th-fail-2023
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:03Z"^^xsd:dateTime;
+    stat:mtime 1758703323.601;
+    stat:size 915 .
+mov:2001-a-space-odyssey-1968
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:16Z"^^xsd:dateTime;
+    stat:mtime 1758703336.566;
+    stat:size 782 .
+mov:3-idiots-2009
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:12Z"^^xsd:dateTime;
+    stat:mtime 1758703332.734;
+    stat:size 1094 .
+mov:alien-1979
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:59Z"^^xsd:dateTime;
+    stat:mtime 1758703319.977;
+    stat:size 1018 .
+mov:aliens-1986
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:06Z"^^xsd:dateTime;
+    stat:mtime 1758703326.438;
+    stat:size 879 .
+mov:amadeus-1984
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:08Z"^^xsd:dateTime;
+    stat:mtime 1758703328.534;
+    stat:size 784 .
+mov:american-beauty-1999
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:09Z"^^xsd:dateTime;
+    stat:mtime 1758703329.866;
+    stat:size 782 .
+mov:american-history-x-1998
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:56Z"^^xsd:dateTime;
+    stat:mtime 1758703316.497;
+    stat:size 1113 .
+mov:apocalypse-now-1979
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:01Z"^^xsd:dateTime;
+    stat:mtime 1758703321.873;
+    stat:size 943 .
+mov:avengers-endgame-2019
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:10Z"^^xsd:dateTime;
+    stat:mtime 1758703330.202;
+    stat:size 940 .
+mov:avengers-infinity-war-2018
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:03Z"^^xsd:dateTime;
+    stat:mtime 1758703323.901;
+    stat:size 1108 .
+mov:back-to-the-future-1985
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:52Z"^^xsd:dateTime;
+    stat:mtime 1758703312.337;
+    stat:size 938 .
+mov:braveheart-1995
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:11Z"^^xsd:dateTime;
+    stat:mtime 1758703331.102;
+    stat:size 860 .
+mov:capernaum-2018
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:13Z"^^xsd:dateTime;
+    stat:mtime 1758703333.63;
+    stat:size 830 .
+mov:casablanca-1943
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:57Z"^^xsd:dateTime;
+    stat:mtime 1758703317.925;
+    stat:size 726 .
+mov:cinema-paradiso-1988
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:58Z"^^xsd:dateTime;
+    stat:mtime 1758703318.965;
+    stat:size 769 .
+mov:city-lights-1931
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:01Z"^^xsd:dateTime;
+    stat:mtime 1758703321.441;
+    stat:size 757 .
+mov:city-of-god-2002
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:50Z"^^xsd:dateTime;
+    stat:mtime 1758703310.765;
+    stat:size 907 .
+mov:coco-2017
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:08Z"^^xsd:dateTime;
+    stat:mtime 1758703328.058;
+    stat:size 1048 .
+mov:come-and-see-1985
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:14Z"^^xsd:dateTime;
+    stat:mtime 1758703334.07;
+    stat:size 1037 .
+mov:das-boot-1981
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:10Z"^^xsd:dateTime;
+    stat:mtime 1758703330.806;
+    stat:size 807 .
+mov:django-unchained-2012
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:01Z"^^xsd:dateTime;
+    stat:mtime 1758703321.021;
+    stat:size 737 .
+mov:dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb-1964
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:09Z"^^xsd:dateTime;
+    stat:mtime 1758703329.21;
+    stat:size 864 .
+mov:dune-part-two-2024
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:59Z"^^xsd:dateTime;
+    stat:mtime 1758703319.265;
+    stat:size 916 .
+mov:eternal-sunshine-of-the-spotless-mind-2004
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:15Z"^^xsd:dateTime;
+    stat:mtime 1758703335.79;
+    stat:size 884 .
+mov:fight-club-1999
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:46Z"^^xsd:dateTime;
+    stat:mtime 1758703306.089;
+    stat:size 902 .
+mov:forrest-gump-1994
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:45Z"^^xsd:dateTime;
+    stat:mtime 1758703305.265;
+    stat:size 844 .
+mov:gladiator-2000
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:53Z"^^xsd:dateTime;
+    stat:mtime 1758703313.777;
+    stat:size 884 .
+mov:good-will-hunting-1997
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:10Z"^^xsd:dateTime;
+    stat:mtime 1758703330.478;
+    stat:size 759 .
+mov:goodfellas-1990
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:47Z"^^xsd:dateTime;
+    stat:mtime 1758703307.773;
+    stat:size 806 .
+mov:grave-of-the-fireflies-1988
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:55Z"^^xsd:dateTime;
+    stat:mtime 1758703315.249;
+    stat:size 954 .
+mov:harakiri-1962
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:57Z"^^xsd:dateTime;
+    stat:mtime 1758703317.537;
+    stat:size 1178 .
+mov:high-and-low-1963
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:12Z"^^xsd:dateTime;
+    stat:mtime 1758703332.166;
+    stat:size 765 .
+mov:ikiru-1952
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:16Z"^^xsd:dateTime;
+    stat:mtime 1758703336.114;
+    stat:size 778 .
+mov:inception-2010
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:46Z"^^xsd:dateTime;
+    stat:mtime 1758703306.537;
+    stat:size 888 .
+mov:inglourious-basterds-2009
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:06Z"^^xsd:dateTime;
+    stat:mtime 1758703326.93;
+    stat:size 986 .
+mov:interstellar-2014
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:48Z"^^xsd:dateTime;
+    stat:mtime 1758703308.577;
+    stat:size 806 .
+mov:its-a-wonderful-life-1946
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:49Z"^^xsd:dateTime;
+    stat:mtime 1758703309.321;
+    stat:size 938 .
+mov:joker-2019
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:12Z"^^xsd:dateTime;
+    stat:mtime 1758703332.45;
+    stat:size 770 .
+mov:lawrence-of-arabia-1962
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:17Z"^^xsd:dateTime;
+    stat:mtime 1758703337.334;
+    stat:size 907 .
+mov:leon-the-professional-1994
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:56Z"^^xsd:dateTime;
+    stat:mtime 1758703316.821;
+    stat:size 935 .
+mov:life-is-beautiful-1997
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:51Z"^^xsd:dateTime;
+    stat:mtime 1758703311.393;
+    stat:size 930 .
+mov:memento-2000
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:02Z"^^xsd:dateTime;
+    stat:mtime 1758703322.221;
+    stat:size 970 .
+mov:modern-times-1936
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:59Z"^^xsd:dateTime;
+    stat:mtime 1758703319.589;
+    stat:size 786 .
+mov:oldboy-2003
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:09Z"^^xsd:dateTime;
+    stat:mtime 1758703329.514;
+    stat:size 722 .
+mov:once-upon-a-time-in-america-1984
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:13Z"^^xsd:dateTime;
+    stat:mtime 1758703333.006;
+    stat:size 803 .
+mov:once-upon-a-time-in-the-west-1968
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:00Z"^^xsd:dateTime;
+    stat:mtime 1758703320.709;
+    stat:size 804 .
+mov:one-flew-over-the-cuckoos-nest-1975
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:48Z"^^xsd:dateTime;
+    stat:mtime 1758703308.161;
+    stat:size 836 .
+mov:parasite-2019
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:53Z"^^xsd:dateTime;
+    stat:mtime 1758703313.413;
+    stat:size 768 .
+mov:paths-of-glory-1957
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:04Z"^^xsd:dateTime;
+    stat:mtime 1758703324.865;
+    stat:size 730 .
+mov:princess-mononoke-1997
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:11Z"^^xsd:dateTime;
+    stat:mtime 1758703331.566;
+    stat:size 934 .
+mov:psycho-1960
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:54Z"^^xsd:dateTime;
+    stat:mtime 1758703314.161;
+    stat:size 815 .
+mov:pulp-fiction-1994
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:44Z"^^xsd:dateTime;
+    stat:mtime 1758703304.161;
+    stat:size 844 .
+mov:raiders-of-the-lost-ark-1981
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:02Z"^^xsd:dateTime;
+    stat:mtime 1758703322.861;
+    stat:size 846 .
+mov:rear-window-1954
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:00Z"^^xsd:dateTime;
+    stat:mtime 1758703320.289;
+    stat:size 739 .
+mov:requiem-for-a-dream-2000
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:14Z"^^xsd:dateTime;
+    stat:mtime 1758703334.402;
+    stat:size 713 .
+mov:reservoir-dogs-1992
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:16Z"^^xsd:dateTime;
+    stat:mtime 1758703336.91;
+    stat:size 883 .
+mov:return-of-the-jedi-1983
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:15Z"^^xsd:dateTime;
+    stat:mtime 1758703335.062;
+    stat:size 809 .
+mov:saving-private-ryan-1998
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:50Z"^^xsd:dateTime;
+    stat:mtime 1758703310.397;
+    stat:size 861 .
+mov:schindlers-list-1993
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:43Z"^^xsd:dateTime;
+    stat:mtime 1758703303.849;
+    stat:size 772 .
+mov:se7en-1995
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:48Z"^^xsd:dateTime;
+    stat:mtime 1758703308.861;
+    stat:size 992 .
+mov:seven-samurai-1954
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:49Z"^^xsd:dateTime;
+    stat:mtime 1758703309.693;
+    stat:size 867 .
+mov:singin-in-the-rain-1952
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:13Z"^^xsd:dateTime;
+    stat:mtime 1758703333.334;
+    stat:size 710 .
+mov:spiderman-across-the-spiderverse-2023
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:55Z"^^xsd:dateTime;
+    stat:mtime 1758703315.633;
+    stat:size 1047 .
+mov:spiderman-into-the-spiderverse-2018
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:04Z"^^xsd:dateTime;
+    stat:mtime 1758703324.545;
+    stat:size 1091 .
+mov:spirited-away-2001
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:52Z"^^xsd:dateTime;
+    stat:mtime 1758703312.729;
+    stat:size 807 .
+mov:star-wars-1977
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:52Z"^^xsd:dateTime;
+    stat:mtime 1758703312.001;
+    stat:size 913 .
+mov:sunset-boulevard-1950
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:04Z"^^xsd:dateTime;
+    stat:mtime 1758703324.189;
+    stat:size 718 .
+mov:terminator-2-judgment-day-1991
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:51Z"^^xsd:dateTime;
+    stat:mtime 1758703311.653;
+    stat:size 910 .
+mov:the-apartment-1960
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:17Z"^^xsd:dateTime;
+    stat:mtime 1758703337.674;
+    stat:size 932 .
+mov:the-dark-knight-2008
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:42Z"^^xsd:dateTime;
+    stat:mtime 1758703302.537;
+    stat:size 1004 .
+mov:the-dark-knight-rises-2012
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:07Z"^^xsd:dateTime;
+    stat:mtime 1758703327.534;
+    stat:size 1044 .
+mov:the-departed-2006
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:54Z"^^xsd:dateTime;
+    stat:mtime 1758703314.809;
+    stat:size 924 .
+mov:the-empire-strikes-back-1980
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:46Z"^^xsd:dateTime;
+    stat:mtime 1758703306.933;
+    stat:size 979 .
+mov:the-godfather-1972
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:41Z"^^xsd:dateTime;
+    stat:mtime 1758703301.913;
+    stat:size 913 .
+mov:the-godfather-part-ii-1974
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:42Z"^^xsd:dateTime;
+    stat:mtime 1758703302.813;
+    stat:size 836 .
+mov:the-good-the-bad-and-the-ugly-1966
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:44Z"^^xsd:dateTime;
+    stat:mtime 1758703304.921;
+    stat:size 852 .
+mov:the-great-dictator-1940
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:06Z"^^xsd:dateTime;
+    stat:mtime 1758703326.049;
+    stat:size 737 .
+mov:the-green-mile-1999
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:51Z"^^xsd:dateTime;
+    stat:mtime 1758703311.097;
+    stat:size 910 .
+mov:the-hunt-2012
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:15Z"^^xsd:dateTime;
+    stat:mtime 1758703335.41;
+    stat:size 845 .
+mov:the-intouchables-2011
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:58Z"^^xsd:dateTime;
+    stat:mtime 1758703318.617;
+    stat:size 767 .
+mov:the-lion-king-1994
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:54Z"^^xsd:dateTime;
+    stat:mtime 1758703314.477;
+    stat:size 923 .
+mov:the-lives-of-others-2006
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:03Z"^^xsd:dateTime;
+    stat:mtime 1758703323.257;
+    stat:size 781 .
+mov:the-lord-of-the-rings-the-fellowship-of-the-ring-2001
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:44Z"^^xsd:dateTime;
+    stat:mtime 1758703304.553;
+    stat:size 993 .
+mov:the-lord-of-the-rings-the-return-of-the-king-2003
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:43Z"^^xsd:dateTime;
+    stat:mtime 1758703303.525;
+    stat:size 1163 .
+mov:the-lord-of-the-rings-the-two-towers-2002
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:45Z"^^xsd:dateTime;
+    stat:mtime 1758703305.701;
+    stat:size 1188 .
+mov:the-matrix-1999
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:47Z"^^xsd:dateTime;
+    stat:mtime 1758703307.313;
+    stat:size 784 .
+mov:the-pianist-2002
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:53Z"^^xsd:dateTime;
+    stat:mtime 1758703313.041;
+    stat:size 963 .
+mov:the-prestige-2006
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:57Z"^^xsd:dateTime;
+    stat:mtime 1758703317.189;
+    stat:size 792 .
+mov:the-shawshank-redemption-1994
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:41Z"^^xsd:dateTime;
+    stat:mtime 1758703301.197;
+    stat:size 1009 .
+mov:the-shining-1980
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:05Z"^^xsd:dateTime;
+    stat:mtime 1758703325.645;
+    stat:size 843 .
+mov:the-silence-of-the-lambs-1991
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:50Z"^^xsd:dateTime;
+    stat:mtime 1758703310.033;
+    stat:size 1019 .
+mov:the-usual-suspects-1995
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:58Z"^^xsd:dateTime;
+    stat:mtime 1758703318.273;
+    stat:size 1022 .
+mov:toy-story-1995
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:08Z"^^xsd:dateTime;
+    stat:mtime 1758703328.882;
+    stat:size 905 .
+mov:toy-story-3-2010
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:14Z"^^xsd:dateTime;
+    stat:mtime 1758703334.734;
+    stat:size 853 .
+mov:walle-2008
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:02Z"^^xsd:dateTime;
+    stat:mtime 1758703322.549;
+    stat:size 1113 .
+mov:whiplash-2014
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:41:56Z"^^xsd:dateTime;
+    stat:mtime 1758703316.061;
+    stat:size 734 .
+mov:witness-for-the-prosecution-1957
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:05Z"^^xsd:dateTime;
+    stat:mtime 1758703325.209;
+    stat:size 770 .
+mov:your-name-2016
+    a tur:Resource, ldp:Resource;
+    dct:modified "2025-09-24T08:42:11Z"^^xsd:dateTime;
+    stat:mtime 1758703331.786;
+    stat:size 887 .

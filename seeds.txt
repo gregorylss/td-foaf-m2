@@ -1,0 +1,5 @@
+http://sixhillsconsulting.com/foaf/agueritz/foaf.rdf
+https://gregorylss.github.io/td-foaf-m2/
+https://glaissus.solidweb.org/profile/card
+https://glaissus.solidweb.org/movies
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <foaf:Person rdf:about="http://example.com/person/me">
+        <!-- Informations personnelles de base -->
+        <foaf:name>boulette</foaf:name>
+        <foaf:givenName>grégoire</foaf:givenName>
+        <foaf:nick>grégoire_boulette</foaf:nick>
+        
+        <foaf:homepage rdf:resource="index.html"/>
+        
+        <foaf:mbox rdf:resource="mailto:gregoire.boulette@gmail.com"/>
+        
+        <foaf:title>informatique</foaf:title>
+        <foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr/"/>
+        
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Cooking"/>
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Computer_science"/>
+        
+        <foaf:based_near>
+            <rdf:Description>
+                <rdfs:label>Paris</rdfs:label>
+            </rdf:Description>
+        </foaf:based_near>
+        
+        <foaf:currentProject>
+            <rdf:Description>
+                <rdfs:label>Rendals</rdfs:label>
+                <rdfs:comment>Application web de gestion d'inventaire pour universités.</rdfs:comment>
+            </rdf:Description>
+        </foaf:currentProject>
+        
+        <!-- Informations biographiques -->
+        <rdfs:comment>Chef cuisinier japonais passionné par la cuisine végétarienne traditionnelle. Enseigne la cuisine japonaise à Londres depuis 2015.</rdfs:comment>
+    </foaf:Person>
+
+</rdf:RDF>
